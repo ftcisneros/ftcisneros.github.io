@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-image:url(background5.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+}
+
+span {
+    font-weight: bold;
+    color: #f06060;
+}
+
+/* Links styling */
+body a {
+    color: #99ab6c;
+    text-decoration: none;
+}
+
+/* Links hover */
+body a:hover {
+    color: #f06060;
+}
+
+/* Navigation bar */
+.nav {
+    padding: 5px;
+    height: 40px;
+    background-color: #445b3f;
+}
+/* Navigation links styling */
+.nav a {
+    font-size: 15pt;
+    font-variant: small-caps;
+    color: #99ab6c;
+    text-decoration: none;
+}
+
+/* Site header */
+.header {
+    padding: 40px;
+    color: #59382C;
+    text-align: center;
+    font-size: 45pt;
+    font-weight: bold;
+    background-color: #F7EFDA;
+    line-height: 0.8;
+}
+
+/* Header subheading */
+.header h2 {
+    color: #da948c;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+/* Center headshot */
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    height: 550px;
+    overflow: scroll;
+}
+
+/* Two unequal columns next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 70%;
+}
+
+/* Right column */ 
+.rightcolumn {
+    float: right;
+    width: 30%;
+}
+
+/* Content */
+.content {
+    padding: 30px 30px;
+    color: #59382C;
+    background-color: #F7EFDA;
+}
+
+.quote h2 {
+    font-family: "Times New Roman";
+    font-style: italic;
+    color: #99ab6c;
+    text-align:right;
+    padding: 10px;
+}
+
+.quote a {
+    color: #59382C;
+}
+
+/* Clears floats and keeps element inside column */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imglink {
+    height: 180px;
+    width: 320px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.projects table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #59382C;
+}
+
+.projects th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+.projects tr:nth-child(even) {
+    background-color: #99ab6c;
+}
+
+.projects a {
+    color: #59382C;
+}
+
+/* No marker for list */
+.nomarker {
+    list-style-type: none;
+}
